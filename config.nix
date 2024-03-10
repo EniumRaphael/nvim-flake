@@ -6,8 +6,7 @@
   ...
 }: {
   config = {
-    colorschemes.tokyonight = {
-      style = "night";
+    colorschemes.dradula = {
       enable = true;
     };
 
