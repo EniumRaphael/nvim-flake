@@ -15,7 +15,7 @@
       {
         event = "VimEnter";
         pattern = ["*"];
-        command = "NvimTreeOpen | wincmd p | set list";
+        command = "NeoTree | wincmd p | set list";
       }
       {
         event = "BufReadPost";
