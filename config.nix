@@ -57,8 +57,8 @@
     globals = {
       neo_tree_remove_legacy_commands = 1;
       mapleader = " ";
-      user42 = "maiboyer";
-      mail42 = "maiboyer@student.42.fr";
+      user42 = "rparodi";
+      mail42 = "rparodi@student.42.fr";
     };
 
     options = {
