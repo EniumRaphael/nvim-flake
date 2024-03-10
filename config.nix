@@ -14,7 +14,7 @@
     autoCmd = [
       {
         event = "VimEnter";
-        pattern = '*';
+        pattern = ["*"];
         command = 'NvimTreeOpen | wincmd p | set list';
       }
       {
