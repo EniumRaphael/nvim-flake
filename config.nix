@@ -15,7 +15,12 @@
       {
         event = "VimEnter";
         pattern = ["*"];
-        command = "NeoTree | wincmd p | set list";
+        callback = helpers.mkRaw ''
+          function(auEvent)
+            vim.cmd('Neotree');
+            vim.cmd('wincmd p');
+          end
+        '';
       }
       {
         event = "BufReadPost";
