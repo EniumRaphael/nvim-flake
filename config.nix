@@ -6,7 +6,7 @@
   ...
 }: {
   config = {
-    colorschemes.dradula = {
+    colorschemes.dracula = {
       enable = true;
     };
 
