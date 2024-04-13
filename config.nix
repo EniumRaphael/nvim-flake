@@ -372,15 +372,6 @@
     plugins.telescope = {
       enable = true;
       enabledExtensions = ["ui-select"];
-      extensionConfig = {
-        ui-select = {
-          __raw = ''
-              require("telescope.themes").get_dropdown {
-              -- even more opts
-            }
-          '';
-        };
-      };
       extraOptions = {
         defaults.layout_strategy = "vertical";
       };
@@ -460,7 +451,7 @@
     };
 
     plugins.treesitter-context = {
-      enable = true;
+      enable = false;
     };
 
     plugins.vim-matchup = {
