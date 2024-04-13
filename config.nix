@@ -9,7 +9,6 @@
     colorschemes.dracula = {
       enable = true;
     };
-
     autoGroups.BigFileOptimizer = {};
     autoCmd = [
       {
@@ -82,7 +81,7 @@
       updatetime = 100;
       colorcolumn = "80";
       spell = false;
-      #list = true;
+      list = true;
       #listchars = "tab:>-,lead:·,nbsp:␣,trail:•";
       listchars = "tab:󰁔 ,lead:·,nbsp:␣,trail:•";
       fsync = true;
